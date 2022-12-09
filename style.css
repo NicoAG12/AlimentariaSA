@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Island+Moments&family=Montserrat:wght@100;200&family=Nunito:wght@400;700&family=Oswald:wght@400;500;700&family=Poppins:ital,wght@0,200;1,400&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Anto: Acá modifiqué a partir de font family hasta font size*/
+p{
+  margin-bottom: 50px;
+  font-family: 'Arimo', sans-serif;
+  color: #3A3A3A;
+  font-size: 13px;
+    
+  }
+
+  .header {
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    height: 120px;
+    padding: 20px ;
+    
+
+  }
+
+  .NavItems{
+    font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  }
+
+  .header .logo img{
+    width:165px; 
+    height:80px;
+    transition: 0.3s;
+
+  }
+
+  .header .logo img:hover{
+    transform: scale(1.2) ;
+  }
+
+  .header .NavItems{
+    list-style: none;
+  }
+
+  .header .NavItems li{
+    display: inline-block;
+    padding: 25px 20px;
+  }
+
+  .header .NavItems li:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+
+  .header .NavItems a{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.697);
+    text-decoration: none;
+  }
+
+  .header .NavItems a:hover{
+    color: rgb(0, 72, 139);
+  }
+
+ .modal-header .avatar img{
+   margin-left: 200px;
+ }
+
+ /* CLASES NICO AGUERO */
+ .cajaimg{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+ }
+
+ .letrasproductos{
+      font-size: 27px;
+      margin-right: 80px;
+ }
+
+ 
+
+ /* Parte Antonella*/
+
+ .comotrabajamos2{
+  font-size: 28px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700px;
+ }
+ 
+.logistica2{
+  font-size: 23px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+.paises2{
+  font-size: 23px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+  font-weight: 700;
+}
+ 
+.calidad2{
+  font-size: 23px;
+  font-family: 'Arimo', sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+ /*   */
