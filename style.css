@@ -90,6 +90,25 @@ p{
    .contenido{
       display: none;
    }  
+
+   .logistica3{
+    font-size: 22px;
+   }
+
+   .paises3{
+    font-size: 22px;
+   }
+
+   .calidad3{
+    font-size: 22px;
+   }
+   .item{
+    color: black !important;
+   }
+
+   .letracont{
+    color: black !important;
+   }
  }
  
 
@@ -97,12 +116,49 @@ p{
   .contenido2{
     display:none;
   }
+
 }
 
 .contenido2 img{
  width:100%;
  height: 400px;
 }
+
+.contenedorc{
+
+  width: 100%;
+  height: 500px;
+  background-image: url(https://img.freepik.com/foto-gratis/campo-campo-dia-soleado-campo_181624-24010.jpg?w=2000) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+
+  
+}
+
+.letracont{
+  margin-bottom: 50px;
+  font-family: 'Arimo', sans-serif;
+  color: #ECECEA;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item{
+  height: 200px;
+  width: 200px;
+  color: #ECECEA;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.cantidad{
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
 
  /* Parte Antonella*/
 
