@@ -1,0 +1,141 @@
+/*ESTILOS PAGINA REGISTRO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajaimagen{
+    width: 100%;
+    background-color: gray;
+    height: 90px;
+}
+
+body{
+    font-family: "roboto",sans-serif;
+    
+    background-image: url(https://fsr.eui.eu/wp-content/uploads/2020/10/qingbao-meng-01_igFr7hd4-unsplash-scaled.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+main{
+    position:relative;
+}
+
+
+
+
+.wrap{
+
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0px 0px 3px grey;
+  }
+
+.contenedor-formulario{
+    width: 100%;
+    color: white;
+    padding: 50px;
+}
+
+.contenedor-formulario .formulario{
+    width: 100%;
+    margin:auto;
+}
+
+.contenedor-formulario .formulario .input-grupo{
+    position: relative;
+    margin-bottom: 32px;
+
+}
+
+input[type="text"]{
+font-family: "roboto",sans-serif;
+font-size: 16px;
+color: gray;
+width: 100%;
+outline: none;
+padding: 15px;
+background: none;
+border: none;
+border-bottom: 2px solid lightgray;
+ 
+}
+input[type="email"]{
+    font-family: "roboto",sans-serif;
+font-size: 16px;
+color: gray;
+width: 100%;
+outline: none;
+padding: 15px;
+background: none;
+border: none;
+border-bottom: 2px solid lightgray;
+}
+input[type="password"]{
+font-family: "roboto",sans-serif;
+font-size: 16px;
+color: gray;
+width: 100%;
+outline: none;
+padding: 15px;
+background: none;
+border: none;
+border-bottom: 2px solid lightgray;
+}
+
+.contenedor-formulario .formulario .input-grupo label{
+    color: gray;
+}
+
+
+input[type="password"]:active{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+input[type="password"]:focus{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+
+input[type="email"]:active{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+input[type="email"]:focus{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+input[type="text"]:active{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+.checks{
+    color:gray;
+    border-color: black;
+    padding:1px;
+}
+
