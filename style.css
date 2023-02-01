@@ -208,6 +208,104 @@ p{
 .calidad3{
   font-size: 18px;
 }
+
+.contacto{
+  font-size: 23px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700px;
+}
+
+.info{
+  font-size: 18px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700px;
+  line-height: 0.1px;
+
+}
+
+.tituloconectando{
+  font-size: 23px;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700px;
+}
+
+
+
+
+input[type="text"]{
+  font-family: "roboto",sans-serif;
+  font-size: 16px;
+  color: gray;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid lightgray;
+   
+  }
+  input[type="email"]{
+      font-family: "roboto",sans-serif;
+  font-size: 16px;
+  color: gray;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  }
+  input[type="password"]{
+  font-family: "roboto",sans-serif;
+  font-size: 16px;
+  color: gray;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  }
+  
+  .contenedor-formulario .formulario .input-grupo label{
+      color: gray;
+  }
+  
+  
+  input[type="password"]:active{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
+  input[type="password"]:focus{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
+  
+  input[type="email"]:active{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
+  input[type="email"]:focus{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
+  
+  
+  
+  input[type="text"]:active{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
+  input[type="text"]:focus{
+      outline: none;
+      border-bottom: 2px solid gray;
+  }
+  
  /*   */
 
 
