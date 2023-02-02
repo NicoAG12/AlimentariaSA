@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Island+Moments&family=Montserrat:wght@100;200&family=Nunito:wght@400;700&family=Oswald:wght@400;500;700&family=Poppins:ital,wght@0,200;1,400&family=Roboto:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Josefin+Sans:wght@400;600&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -310,52 +311,3 @@ input[type="text"]{
 
 
  /*ESTILOS PAGINA ABOUT US*/
-
-.aboutus {
-  background-color: #5333ed;
-  
-}
-
-
-.letratitulo{
-  font-size: 45px;
-  color: #FCFAFD ;
- 
-
-}
-
-.letrasubtitulo{
-  font-size: 18px;
-  color: #FCFAFD;
-  
- 
-}
-
-
-.imagcarousel{
-  width: auto;
-  height: 500px;
-  max-height: 500px;
-}
-
-.imagcards{
-  height: 200px;
-  width: 300px;
-}
-
-.tarjeta1{
-  background-color: #5BB8A5;
-  height: 200px;
-  margin-left: 2px;
-}
-.tarjeta2{
-  background-color: #DED3F8;
-  height: 200px;
-  margin-left: 2px;
-}
-
-.tarjeta3{
-  background-color: #F6F6F6;
-  height: 200px;
-  margin-left: 2px;
-}

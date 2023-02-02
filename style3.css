@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Island+Moments&family=Montserrat:wght@100;200&family=Nunito:wght@400;700&family=Oswald:wght@400;500;700&family=Poppins:ital,wght@0,200;1,400&family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Josefin+Sans:wght@400;600&family=Noto+Serif+Khojki:wght@400;500;600;700&display=swap');
+
+
+ /*ESTILOS PAGINA ABOUT US*/
+ 
+ body{
+   background-color: #ECECEA;
+ }
+
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aboutus{
+    background-color: #a7a877;
+    width: 100%;
+    
+  }
+
+  
+.letratitulo{
+    font-size: 85px;
+    color: #FCFAFD ;
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: 700px;
+  
+}
+  
+.letrasubtitulo{
+    font-size: 22px;
+    color: #FCFAFD;
+    font-family: 'roboto', sans-serif;
+   
+}
+  
+  
+.imagcarousel{
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+}
+  
+.imagcards{
+    height: 100%;
+    width: 100%;
+}
+  
+.tarjeta1{
+    background-color: #696449;
+    height: 200px;
+    margin-left: 2px;
+}
+  
+  
+.tarjeta3{
+    background-color:#696449;
+    height: 200px;
+    margin-left: 2px;
+}
+  
+.cartatitulo{
+    color: #ECECEA;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+  
+.cartatexto{
+    color:  #a1a18f;
+    font-family: 'roboto', sans-serif;
+    font-size: 18px;
+}
+  
+h4{
+    font-size: 85px;
+    color: #696449 ;
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: 700px;
+    text-align: right;
+}
+
+@media screen and (max-width: 480px){
+    .carousel-inner{
+        height: 100%;
+        margin-top: 10%;
+    }
+    .class{
+        width: auto;
+    }
+    section{
+        height: auto;
+        width: auto;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .titulonosotros{
+       font-size: 40px;
+    }
+    .letratitulo{
+        font-size: 40px;
+    }
+    .letrasubtitulo{
+        font-size: 80%;
+    }
+    .cartatitulo{
+        font-size: 25px;
+    }
+    .cartatexto{
+        font-size: 15px;
+    }
+}
