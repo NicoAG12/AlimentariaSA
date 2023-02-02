@@ -312,11 +312,7 @@ input[type="text"]{
  /*ESTILOS PAGINA ABOUT US*/
 
 .aboutus {
-  width: 100% ;
-  height: 500px;
-  background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/883/non_2x/low-anglegraphy-of-high-rise-buildings-free-photo.jpeg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #5333ed;
   
 }
 
@@ -341,9 +337,31 @@ input[type="text"]{
  
 }
 
-.imagprueba{
 
-width: 500px;
-height: 600px;
+.imagcarousel{
+  width: auto;
+  height: 500px;
+  max-height: 500px;
 }
 
+.imagcards{
+  height: 200px;
+  width: 300px;
+}
+
+.tarjeta1{
+  background-color: #5BB8A5;
+  height: 200px;
+  margin-left: 2px;
+}
+.tarjeta2{
+  background-color: #DED3F8;
+  height: 200px;
+  margin-left: 2px;
+}
+
+.tarjeta3{
+  background-color: #F6F6F6;
+  height: 200px;
+  margin-left: 2px;
+}
